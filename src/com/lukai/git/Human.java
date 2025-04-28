@@ -30,5 +30,11 @@ public class Human {
         this.age = age;
     }
 
-    //asfdsf
+    @Override
+    public String toString() {
+        return "Human{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
